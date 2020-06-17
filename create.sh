@@ -1,0 +1,142 @@
+#!/bin/sh
+
+curl -iX POST 'http://localhost:1026/v2/entities'  -H 'Content-Type: application/json' -H 'fiware-service: openiot' -H 'fiware-servicepath: /' -d '
+{
+    "id":"IIJ_ECHONET-test-1",
+    "type":"SmartMeter",
+    "ActivePower":{
+        "type":"ActivePower",
+        "value":{
+            "createDate":"2020-06-05T05:15:49.000Z",
+            "receptionDate":"2020-06-09T04:31:51.734Z",
+            "data":[
+                {"measured_at":"2020-06-05T13:30:00.000+09:00","missing":false,"value":3186}
+            ]
+        }
+    },
+    "InstActivePower":{
+        "type":"InstActivePower",
+        "value":{
+            "createDate":"2020-06-05T05:15:49.000Z",
+            "receptionDate":"2020-06-09T04:31:51.735Z",
+            "data":[
+                {"measured_at":"2020-06-05T13:20:05.000+09:00","value":3182.58}
+            ]
+        }
+    },
+    "DemandPower":{
+        "type":"DemandPower",
+        "value":{
+            "createDate":"2020-06-05T05:15:49.000Z",
+            "receptionDate":"2020-06-09T04:31:51.735Z",
+            "data":[
+                {"measured_at":"2020-06-05T13:30:00.000+09:00","missing":false,"value":21.6}
+            ]
+        }
+    },
+    "PredictedPower":{
+        "type":"PredictedPower",
+        "value":{
+            "createDate":"2020-06-05T05:15:49.000Z",
+            "receptionDate":"2020-06-09T04:31:51.734Z",
+            "data":[
+                {"measured_at":"2020-06-05T13:20:00.000+09:00","value":20.36}
+            ]
+        }
+    }
+}'
+
+
+curl -iX POST 'http://localhost:1026/v2/entities'  -H 'Content-Type: application/json' -H 'fiware-service: openiot' -H 'fiware-servicepath: /' -d '
+{
+    "id":"IIJ_ECHONET-test-2",
+    "type":"SmartMeter",
+    "ActivePower":{
+        "type":"ActivePower",
+        "value":{
+            "createDate":"2020-06-05T05:15:49.000Z",
+            "receptionDate":"2020-06-09T04:31:51.734Z",
+            "data":[
+                {"measured_at":"2020-06-05T13:30:00.000+09:00","missing":false,"value":3200}
+            ]
+        }
+    },
+    "InstActivePower":{
+        "type":"InstActivePower",
+        "value":{
+            "createDate":"2020-06-05T05:15:49.000Z",
+            "receptionDate":"2020-06-09T04:31:51.735Z",
+            "data":[
+                {"measured_at":"2020-06-05T13:20:05.000+09:00","value":3110}
+            ]
+        }
+    },
+    "DemandPower":{
+        "type":"DemandPower",
+        "value":{
+            "createDate":"2020-06-05T05:15:49.000Z",
+            "receptionDate":"2020-06-09T04:31:51.735Z",
+            "data":[
+                {"measured_at":"2020-06-05T13:30:00.000+09:00","missing":false,"value":28.6}
+            ]
+        }
+    },
+    "PredictedPower":{
+        "type":"PredictedPower",
+        "value":{
+            "createDate":"2020-06-05T05:15:49.000Z",
+            "receptionDate":"2020-06-09T04:31:51.734Z",
+            "data":[
+                {"measured_at":"2020-06-05T13:20:00.000+09:00","value":25}
+            ]
+        }
+    }
+}'
+
+
+
+curl -iX POST 'http://localhost:1026/v2/entities'  -H 'Content-Type: application/json' -H 'fiware-service: openiot' -H 'fiware-servicepath: /' -d '
+{
+    "id":"IIJ_ECHONET-test-3",
+    "type":"SmartMeter",
+    "ActivePower":{
+        "type":"ActivePower",
+        "value":{
+            "createDate":"2020-06-05T05:15:49.000Z",
+            "receptionDate":"2020-06-09T04:31:51.734Z",
+            "data":[
+                {"measured_at":"2020-06-05T13:30:00.000+09:00","missing":false,"value":3186}
+            ]
+        }
+    },
+    "InstActivePower":{
+        "type":"InstActivePower",
+        "value":{
+            "createDate":"2020-06-05T05:15:49.000Z",
+            "receptionDate":"2020-06-09T04:31:51.735Z",
+            "data":[
+                {"measured_at":"2020-06-05T13:20:05.000+09:00","value":3182.58}
+            ]
+        }
+    },
+    "DemandPower":{
+        "type":"DemandPower",
+        "value":{
+            "createDate":"2020-06-05T05:15:49.000Z",
+            "receptionDate":"2020-06-09T04:31:51.735Z",
+            "data":[
+                {"measured_at":"2020-06-05T13:30:00.000+09:00","missing":false,"value":21.6}
+            ]
+        }
+    },
+    "PredictedPower":{
+        "type":"PredictedPower",
+        "value":{
+            "createDate":"2020-06-05T05:15:49.000Z",
+            "receptionDate":"2020-06-09T04:31:51.734Z",
+            "data":[
+                {"measured_at":"2020-06-05T13:20:00.000+09:00","value":20.36}
+            ]
+        }
+    }
+}'
