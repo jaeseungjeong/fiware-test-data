@@ -10,7 +10,7 @@ curl -iX POST 'http://localhost:1026/v2/entities'  -H 'Content-Type: application
             "createDate":"2020-06-05T05:15:49.000Z",
             "receptionDate":"2020-06-09T04:31:51.734Z",
             "data":[
-                {"measured_at":"2020-06-05T13:30:00.000+09:00","missing":false,"value":3186}
+                {"measured_at":"2020-06-05T13:50:00.000+09:00","missing":false,"value":3186}
             ]
         }
     },
@@ -20,7 +20,7 @@ curl -iX POST 'http://localhost:1026/v2/entities'  -H 'Content-Type: application
             "createDate":"2020-06-05T05:15:49.000Z",
             "receptionDate":"2020-06-09T04:31:51.735Z",
             "data":[
-                {"measured_at":"2020-06-05T13:20:05.000+09:00","value":3182.58}
+                {"measured_at":"2020-06-05T13:50:05.000+09:00","value":3182.58}
             ]
         }
     },
@@ -30,7 +30,7 @@ curl -iX POST 'http://localhost:1026/v2/entities'  -H 'Content-Type: application
             "createDate":"2020-06-05T05:15:49.000Z",
             "receptionDate":"2020-06-09T04:31:51.735Z",
             "data":[
-                {"measured_at":"2020-06-05T13:30:00.000+09:00","missing":false,"value":21.6}
+                {"measured_at":"2020-06-05T13:50:00.000+09:00","missing":false,"value":21.6}
             ]
         }
     },
@@ -40,7 +40,7 @@ curl -iX POST 'http://localhost:1026/v2/entities'  -H 'Content-Type: application
             "createDate":"2020-06-05T05:15:49.000Z",
             "receptionDate":"2020-06-09T04:31:51.734Z",
             "data":[
-                {"measured_at":"2020-06-05T13:20:00.000+09:00","value":20.36}
+                {"measured_at":"2020-06-05T13:50:00.000+09:00","value":20.36}
             ]
         }
     }
